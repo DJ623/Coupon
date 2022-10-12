@@ -1,0 +1,46 @@
+#main
+{
+    height :150vh;
+    background-color: blanchedalmond;
+}
+
+.navcolor
+{
+   background-color:antiquewhite;
+   border-bottom: 1px solid black;
+}
+
+.carousel {
+    width:100%;
+    
+  }
+
+  .carddesign
+  {
+    width: 17rem;
+    height: 25rem;
+    float: left;
+    margin: 5px;
+  }
+
+  .carddesign > img
+  {
+    height : 14rem;
+  }
+
+  #coupon
+  {
+    position: fixed;
+    height: 25rem;
+    width: 35rem;
+    background-color: red;
+    z-index: 100;
+    margin-left:27%;
+    margin-top: 8%;
+    visibility: hidden;
+    
+  }
+
+  
+
+ 
