@@ -9,3 +9,34 @@ function closeCoupon(){
 
    document.getElementById('main1').style.opacity = '100';
 }   
+
+
+function changeMode()
+{
+    mybody = document.body;
+    nav1 = document.getElementById('navtarget');
+
+
+
+   
+
+
+    mybody.classList.toggle('mydark');
+    nav1.classList.toggle('navbar-dark');
+    
+
+
+
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => card.classList.toggle('bg-dark'));
+
+
+   
+
+    
+   
+}
+
+
+
